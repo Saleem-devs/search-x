@@ -1,0 +1,20 @@
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+}
+.header__Left {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

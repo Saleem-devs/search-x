@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800;900&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home__body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.logo {
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Unbounded", cursive;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 35px;
+  }
+}

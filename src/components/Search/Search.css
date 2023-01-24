@@ -1,0 +1,36 @@
+div {
+  color: #fff;
+}
+.search__input {
+  margin: 30px auto;
+  width: 90vw;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  height: 35px;
+  padding: 8px;
+  overflow: hidden;
+  border: 1px solid #303134;
+  transition: all 0.5s ease;
+}
+.search__input:hover,
+.search__input:hover input {
+  background: #303134;
+  border: 0;
+}
+input {
+  padding: 0 25px;
+  width: 95%;
+  background: #000;
+  color: #fff;
+  height: inherit;
+  transition: all 0.5s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  margin-right: 5px;
+}
