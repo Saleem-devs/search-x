@@ -2,7 +2,9 @@
   width: 90vw;
   margin: auto;
 }
-
+a {
+  color: #fff;
+}
 header {
   padding: 20px 0;
 }

@@ -1,0 +1,14 @@
+p {
+  text-transform: uppercase;
+  color: #fff;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  cursor: pointer;
+}

@@ -34,3 +34,27 @@ input {
   cursor: pointer;
   margin-right: 5px;
 }
+.search__buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background: rgb(33, 32, 32);
+  color: rgb(209, 206, 206);
+  padding: 7px 15px;
+  margin: 5px;
+  text-transform: capitalize;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid #303134;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  color: #fff;
+  border: 1px solid #4f5053;
+  box-shadow: 0 1px 1px rgba(244, 238, 238, 0.1);
+}
+.buttons__hidden {
+  display: none;
+}

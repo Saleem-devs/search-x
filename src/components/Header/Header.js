@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [date, setDate] = useState(
@@ -32,7 +33,10 @@ function Header() {
     <header>
       <div className="container">
         <div className="header__Left">
-          <FontAwesomeIcon className="home__icon" icon={faHouse} />
+          <Link to="/">
+            {" "}
+            <FontAwesomeIcon className="home__icon" icon={faHouse} />
+          </Link>
         </div>
 
         <div className="header__Right">

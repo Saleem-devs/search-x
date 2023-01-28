@@ -3,7 +3,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .home__body {
@@ -18,6 +18,9 @@
   font-weight: 800;
   font-size: 40px;
   font-family: "Unbounded", cursive;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 400px) {
