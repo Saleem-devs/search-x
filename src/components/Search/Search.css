@@ -2,14 +2,14 @@ div {
   color: #fff;
 }
 .search__input {
-  margin: 30px auto;
-  width: 90vw;
+  margin: 0 auto;
+  width: 90%;
   max-width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 8px;
-  height: 35px;
+  height: 25px;
   padding: 8px;
   overflow: hidden;
   border: 1px solid #303134;
