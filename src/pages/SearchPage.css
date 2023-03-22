@@ -27,6 +27,9 @@
 p {
   text-transform: initial;
 }
+.SearchPage {
+  min-height: 100vh;
+}
 .searchPage__Results {
   max-width: 700px;
   margin: 20px 10px 100px 200px;
@@ -42,8 +45,18 @@ h2 {
   color: #8ab4f8;
   font-weight: 400;
 }
+.searchPage__ResultImage {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
 .searchPage__ResultTitle:hover {
   text-decoration: underline;
+}
+.searchPage__ResultLink {
+  display: flex;
+  align-items: center;
 }
 .searchPage__ResultLink,
 .searchPage__ResultSnippet {
@@ -58,6 +71,13 @@ h2 {
 @media screen and (max-width: 600px) {
   .search_logo {
     display: none;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .searchPage__ResultSnippet,
+  .searchPage__ResultLink {
+    font-size: 14px;
   }
   .home__Icon {
     display: block;

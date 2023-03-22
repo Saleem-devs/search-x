@@ -23,6 +23,9 @@
   -ms-user-select: none;
   user-select: none;
 }
+section > footer > p {
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 400px) {
   .logo {
